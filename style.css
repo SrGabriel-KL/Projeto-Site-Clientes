@@ -19,10 +19,10 @@
             min-height: 0vh;
             background-color: black;
             background-size: cover;
-            color: #fff;     /* ocupa a tela toda */
-            background-position: center;   /* centraliza */
-            background-repeat: no-repeat;  /* não repete */
-            background-attachment: fixed;  /* fica fixo */ 
+            color: #fff;     
+            background-position: center;   
+            background-repeat: no-repeat;  
+            background-attachment: fixed;  
             
         }
         img {
@@ -37,8 +37,8 @@
         }
 
         .barber-icon-box img {
-            width: 250px;      /* aumenta aqui */
-            height: auto;     /* mantém proporção */
+            width: 250px;      
+            height: auto;    
 
         }
 
@@ -158,9 +158,9 @@
         }
 
         .map-section {
-            position: fixed;       /* fica preso na tela */
-            top: 20px;             /* distância do topo */
-            right: 20px;           /* distância da direita */
+            position: fixed;       
+            top: 20px;             
+            right: 20px;           
             z-index: 999;
             background: transparent;
             padding: 0;
@@ -195,13 +195,13 @@
 
         
         .city-image {
-            margin-top: 20px;          /* espaço abaixo do mapa */
+            margin-top: 20px;          
             display: flex;
-            justify-content: center;   /* centraliza a imagem */
+            justify-content: center;   
         }
 
         .city-image img {
-            width: 305px;              /* tamanho pequeno */
+            width: 305px;             
             max-width: 100%;
             border-radius: 14px;
 
@@ -373,12 +373,12 @@
             filter: blur(1px);
             z-index: -1;
 
-            /* SEMPRE ATIVO */
+            
             animation: raios 1s linear infinite;
             opacity: 1;
         }
 
-        /* ATIVA NO HOVER / TOQUE */
+        
         .btn-whatsapp:hover::before,
         .btn-whatsapp:active::before {
             animation: fumaça 3s infinite;
@@ -484,98 +484,98 @@
             opacity: 1;
         }
 
-@media (max-width: 768px) {
+        @media (max-width: 768px) {
 
-  html, body {
-    height: 100%;
-    margin: 0;
-    overflow-x: hidden;
-  }
+        html, body {
+            height: 100%;
+            margin: 0;
+            overflow-x: hidden;
+        }
 
-  body {
-    display: flex;
-    flex-direction: column;
-  }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
 
-  /* LOGO */
-  .barber-icon-box {
-    display: flex;
-    justify-content: center;
-    margin: 16px 0 12px;
-  }
+        /* LOGO */
+        .barber-icon-box {
+            display: flex;
+            justify-content: center;
+            margin: 16px 0 12px;
+        }
 
-  .barber-icon-box img {
-    width: 180px;
-  }
+        .barber-icon-box img {
+            width: 180px;
+        }
 
-  /* CONTEÚDO */
-  .home {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    padding: 10px 0;
-  }
+        /* CONTEÚDO */
+        .home {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 0;
+        }
 
-  /* BOTÕES */
-  .button {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-  }
+        /* BOTÕES */
+        .button {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 0;
+        }
 
-  .btn-raios,
-  .btn-agendamento,
-  .btn-whatsapp {
-    width: 90%;
-    max-width: 320px;
-    padding: 16px;
-    font-size: 17px;
-    text-align: center;
-    position: relative;
-    transform: none;
-    left: 0;
-    top: 0;
-    margin: -5px 0;
-  }
+        .btn-raios,
+        .btn-agendamento,
+        .btn-whatsapp {
+            width: 90%;
+            max-width: 320px;
+            padding: 16px;
+            font-size: 17px;
+            text-align: center;
+            position: relative;
+            transform: none;
+            left: 0;
+            top: 0;
+            margin: -5px 0;
+        }
 
-  /* 🔥 MAPA NO RODAPÉ DE VERDADE */
-  footer.map-section {
-    position: static;
-    margin-top: auto;
-    width: 100%;
-    padding: 14px 0 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+        
+        footer.map-section {
+            position: static;
+            margin-top: auto;
+            width: 100%;
+            padding: 14px 0 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
 
-  .map-container {
-    width: 92%;
-    height: 120px;
-    border-radius: 80px;
-    overflow: hidden;
-  }
+        .map-container {
+            width: 92%;
+            height: 120px;
+            border-radius: 80px;
+            overflow: hidden;
+        }
 
-  .map-container iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
 
-  .city-image img {
+        .city-image img {
 
-    height: 140px;      /* controla só a altura */
-    object-fit: cover; /* corta sem distorcer */
-    margin-top: -40px;
-    width: 92%;
-    max-width: 100%;
-    object-fit: cover;
-  }
-}
+            height: 140px;      
+            object-fit: cover; 
+            margin-top: -40px;
+            width: 92%;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        }
 
 
 
