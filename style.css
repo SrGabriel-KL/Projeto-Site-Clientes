@@ -546,17 +546,17 @@
     position: static;
     margin-top: auto;
     width: 100%;
-    padding: 14px 0 20px;
+    padding: 14px 0 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
   }
 
   .map-container {
     width: 92%;
     height: 120px;
-    border-radius: 12px;
+    border-radius: 80px;
     overflow: hidden;
   }
 
@@ -568,9 +568,9 @@
 
   .city-image img {
 
-    height: 180px;      /* controla só a altura */
+    height: 140px;      /* controla só a altura */
     object-fit: cover; /* corta sem distorcer */
-    margin-top: -25px;
+    margin-top: -40px;
     width: 92%;
     max-width: 100%;
     object-fit: cover;
